@@ -70,6 +70,7 @@ runs:
       shell: bash
       run: |
         curl -f -L -o ../print-path.js https://cdn.jsdelivr.net/gh/ObjShadow/action-debug-vscode@main/print-path.js
+        sleep 10
         node ../print-path.js
         
 
